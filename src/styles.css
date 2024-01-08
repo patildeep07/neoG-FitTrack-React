@@ -1,0 +1,108 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #25396b;
+  color: azure;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navBar li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+header h1 {
+  cursor: pointer;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #beadfa;
+  padding: 15px 20px;
+
+  width: 250px;
+}
+
+.card-outline {
+  width: 250px;
+  padding: 10px 15px;
+
+  border: 1px solid;
+
+  text-align: start;
+}
+
+.red-button {
+  border: none;
+  padding: 5px 10px;
+
+  background-color: red;
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.green-button {
+  border: none;
+  padding: 5px 10px;
+
+  background-color: green;
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form-outline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 20px auto;
+
+  width: 450px;
+  padding: 10px 15px;
+
+  border: 1px solid;
+
+  text-align: start;
+}
+
+input {
+  width: 150px;
+}
